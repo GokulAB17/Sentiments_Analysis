@@ -1,0 +1,11 @@
+pandas= =1.0.5
+numpy= =1.20.1
+re= = 2.2.1
+bs4= = 4.9.3
+selenium = = 3.141.0
+sqlite2 = = 2.6.0
+dash = = 1.19.0
+dash_core_components = = 1.15.0
+dash_html_components = = 1.1.2
+dash_bootstrap_components = = 0.11.3
+scikit-learn = = 0.24.1
