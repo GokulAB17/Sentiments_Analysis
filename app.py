@@ -22,6 +22,7 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import CountVectorizer
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
+server=app.server
 project_name = "Sentiments_Analysis Using AI "
 
 #def open_browser():
