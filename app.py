@@ -217,20 +217,20 @@ def main():
     global scrappedReviews
     global balancedReviews
     global l1,l2,v1,v2,poscount,negcount
-    print("Project Initiating.......")
+    #print("Project Initiating.......")
     load_model()
     Scrapp_Reviews()
     open_browser()
     app.layout = create_app_ui()
     app.title = project_name
     app.run_server()
-    app = None
-    project_name = None
-    vocab = None
-    scrappedReviews = None
-    balancedReviews = None
-    l1,l2,v1,v2,poscount,negcount = None,None,None,None,None,None
-    print("Project Ended......")
+    #app = None
+    #project_name = None
+    #vocab = None
+    #scrappedReviews = None
+    #balancedReviews = None
+    #l1,l2,v1,v2,poscount,negcount = None,None,None,None,None,None
+    #print("Project Ended......")
 if __name__ == '__main__':
     main()    
     
