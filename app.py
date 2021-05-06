@@ -24,8 +24,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 project_name = "Sentiments_Analysis Using AI "
 
-def open_browser():
-    webbrowser.open_new("http://127.0.0.1:8050/")
+#def open_browser():
+#    webbrowser.open_new("http://127.0.0.1:8050/")
     
 def load_model():
     global pickle_model
@@ -220,7 +220,7 @@ def main():
     #print("Project Initiating.......")
     load_model()
     Scrapp_Reviews()
-    open_browser()
+    #open_browser()
     app.layout = create_app_ui()
     app.title = project_name
     app.run_server()
